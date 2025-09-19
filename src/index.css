@@ -5,8 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+      animation: pulse 10s infinite;
 }
+@keyframes pulse {
 
+  0%,
+  100% {
+    background-color: #71072a;
+  }
+
+  50% {
+    background-color: #19011e;
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
